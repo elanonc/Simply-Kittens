@@ -1,0 +1,37 @@
+main {
+    text-align: center;
+}
+
+body {
+    background-color: #581845;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color:  #FFC300;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    max-width: 600px;
+    max-height: 400px;
+    border-radius: 30px;
+}
+
+button {
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 16px;
+    background: #FFC300;
+    color: #581845;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    font-family: Helvetica, sans-serif;
+}
+
+button:hover {
+    background: #FF5733;
+}
